@@ -3,24 +3,26 @@
     font-family: "Poppins", sans-serif;
     
   }
-html,body{
-    height: 100%;
-    margin: 0px;
-}
 
 
 .navbar.navbar-expand-lg{
+    
     font-weight: bold;
     width: 100%;
-    height: 75px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 24px;
+    
+
+
+   
+
 }
 
 .navbar-brand img{    
     width: 80px;
+
 }
 
 
@@ -33,7 +35,6 @@ html,body{
     justify-content: space-between;
     font-size: 20px;
     text-transform: uppercase;
-    margin-right: 90px;
     flex-wrap: wrap;
 
 }
@@ -44,6 +45,83 @@ html,body{
 
 
 .links-navbar li:hover{
+    color: #F6C101;
+    transition: 500ms ease;
+    
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.container h1{
+    font-size: 60px;
+}
+
+.container h2{
+    font-size: 50px;
+}
+
+.container h3{
+    font-size: 40px;
+}
+
+.container-about{
+    margin-left: 48px;
+    
+
+}
+
+
+.container-about img{
+    width: 0px;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+footer ul.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 48px;
+    cursor: pointer;
+
+}
+
+.footer-menu li{
+    margin-right: 16px;
+    
+
+}
+
+.copy{
+    margin-right: 16px;
+
+}
+
+.footer-menu li:hover{
     color: #F6C101;
     transition: 500ms ease;
     
